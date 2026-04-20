@@ -246,13 +246,13 @@ form .btn-enviar input[type="submit"] {
     text-transform: uppercase;
     cursor: pointer;
     transition: .2s;
-    box-shadow: 0px 4px 15px rgba(197, 59, 99, 0.3);
+    box-shadow: 0px 4px 15px rgba(1, 57, 109, 0.3);
 }
 
 form .btn-enviar input[type="submit"]:hover {
     background-color: #4a048b;
     transform: scale(1.05); 
-    box-shadow: 0px 6px 20px rgba(54, 143, 227, 0.4);
+    box-shadow: 0px 6px 20px rgba(1, 57, 109, 0.3);
 }
 
 /* Bolha +  form*/
@@ -320,12 +320,13 @@ section.projetos {
     overflow-x: auto;
     padding: 40px 10px;
     scrollbar-width: thin;
-    scrollbar-color: #7f00c9 #f4daec;
+    scrollbar-color: #7f00c9 transparent;
 }
 
 .carrossel-container::-webkit-scrollbar {
-     height: 8px; 
-    }
+    height: 8px;
+    background: transparent;
+}
 
 .carrossel-container::-webkit-scrollbar-thumb { 
     background: #9913c2;
@@ -362,7 +363,7 @@ section.projetos {
 
 .card-projeto:hover {
     transform: translateY(-15px) scale(1.02);
-    box-shadow: 0 15px 35px rgba(1, 57, 109, 0.3);
+    box-shadow: 0 15px 25px rgba(1, 57, 109, 0.3);
 }
 
 .conteudo-projeto h3 {
@@ -456,7 +457,7 @@ section.projetos {
     width: 100%;
     overflow: hidden;
     padding: 25px 0;
-
+    scrollbar-color: black;
     border-top: 2px solid transparent;
     border-bottom: 2px solid transparent;
 
